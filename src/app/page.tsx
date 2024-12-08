@@ -5,7 +5,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="bg-black bg-home-img bg-cover bg-center">
-      <main>
+      <main className="flex flex-col justify-center text-center max-w-5xl" >
         <div>
           <h1>Dan&apos;s Computer<br/> Repair shop</h1>
           <address>
