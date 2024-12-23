@@ -14,13 +14,17 @@ export function Header() {
 
                     <Link href="/home" className="flex justify-center items-center gap-2 ml-0" title="Home">
                     <h1 className="hidden sm:block text-xl font-bold m-0 mt-1">
-                        
+                        Computer Repair Shop
                     </h1>
                     </Link>
                 </div>
 
                 <div className="flex items-center">
 
+                    <NavButton href="/tickets" label="Tickets" icon={File}/>
+
+                    <NavButton href="/customers" label="Customers" icon={UsersRound}/>
+                    
                 </div> 
 
             </div>
